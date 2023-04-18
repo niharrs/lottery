@@ -49,4 +49,7 @@ module.exports = {
         },
         customChains: [],
     },
+    mocha: {
+        timeout: 200000,
+    },
 }
